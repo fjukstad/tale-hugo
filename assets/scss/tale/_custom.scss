@@ -6,6 +6,13 @@
   max-width: 800px;
   font-size: 0.8rem; 
   font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+
+	ul {
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 0;
+	}
+		
 }
 
 footer { 
@@ -32,9 +39,3 @@ text-align: right;
 }
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-	
