@@ -1,5 +1,25 @@
-		<footer>
-			<span>
-			&copy; <time datetime="{{ now }}">{{ now.Format "2006" }}</time> {{ .Site.Author.name }}. {{ i18n "generator" | safeHTML }}
-			</span>
-		</footer>
+<hr/>
+<div class="wrapper">
+	<div class="w33">
+		<ul>
+			<li> {{.Site.Author.name }} </li>
+			<li> <a href="mailto:{{.Site.Author.email}}">{{.Site.Author.email}}</a></li> 
+		</ul>
+	</div>
+	<div class="w33 text-center">
+		<ul>
+			<li>
+				Twitter: <a href="https://twitter.com/{{.Site.Author.twitter}}" target="_blank">{{.Site.Author.twitter}}</a>
+			</li> 
+			<li> 
+				Github: <a href="https://github.com/{{.Site.Author.github}}" target="_blank">{{.Site.Author.github}}</a>
+			</li> 
+		</ul>
+	</div>
+
+	<div class="w33 text-right">
+		<ul>
+			<li>{{ .Site.Author.description }}</li>
+		</ul>
+	</div>
+</div>

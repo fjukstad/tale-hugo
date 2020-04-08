@@ -11,7 +11,8 @@
 
 		{{ partial "single/footer.html" . }}
 	</div>
-
+	{{ if .Params.Page  }} 
+	{{ else }} 
 	<div class="pagination">
 		{{- if .PrevPage }}
 		<a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
@@ -22,6 +23,7 @@
 
 		<a href="#" class="top">Top</a>
 	</div>
+	{{ end }}
 </main>
 
 {{ end }}

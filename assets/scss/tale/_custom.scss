@@ -1,0 +1,40 @@
+.wrapper{
+  display:flex;
+  width:100%;
+  margin: 0 auto;
+  padding-top: 2em;
+  max-width: 800px;
+  font-size: 0.8rem; 
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+footer { 
+  font-family: "Helvetica Neue", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+hr { 
+	background-color: rgba(0,0,0,0.1);
+	height: 1px;
+	border: 0; 
+}
+
+.w33{
+  width:33%;
+  color: #555;
+}
+
+.text-center { 
+text-align: center;
+}
+
+.text-right{ 
+text-align: right;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+	
